@@ -78,11 +78,11 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 docker run -d --name server-drupal --publish published=9700,target=80 -v drupal_data:/var/www/html/sites/default/files -v drupal_modules:/var/www/html/modules -v drupal_profiles:/var/www/html/profiles -v drupal_sites:/var/www/html/sites --network net-drupal drupal
 ```
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
-# COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
+![Volúmenes](img/Drupal.png)
 
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
 
-# COMPLETAR CON EL DIAGRAMA SOLICITADO
+![Volúmenes](img/diagrama.png)
 
 ### Eliminar un volumen específico
 ```
